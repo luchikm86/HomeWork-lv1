@@ -9,6 +9,7 @@ public class DaysOfMonth {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter month: ");
         int month = scanner.nextInt();
+        scanner.close();
 
         switch (month) {
             case 1:
