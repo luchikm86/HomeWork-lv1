@@ -11,8 +11,9 @@ public class Blackjack {
         int cardA = scanner.nextInt();
         System.out.print("Enter cardB: ");
         int cardB = scanner.nextInt();
+        scanner.close();
 
-        if (cardA > 21 && cardB > 21) {
+        if (cardA == 21 && cardB == 21) {
             System.out.print(0);
         } else if ((cardA <= 21 && cardA > cardB) && (cardA > 0 && cardB > 0)) {
             System.out.print(cardA);
