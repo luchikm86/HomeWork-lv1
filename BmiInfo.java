@@ -11,6 +11,7 @@ public class BmiInfo {
         double weight = scanner.nextDouble();
         System.out.print("Enter height: ");
         double height = scanner.nextDouble();
+        scanner.close();
 
         double bmi = weight / Math.pow(height, 2);
 
