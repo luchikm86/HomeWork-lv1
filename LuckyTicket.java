@@ -9,6 +9,7 @@ public class LuckyTicket {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your ticket: ");
         int ticket = scanner.nextInt();
+        scanner.close();
 
         int a = ticket / 100000 % 10;
         int b = ticket / 10000 % 10;
